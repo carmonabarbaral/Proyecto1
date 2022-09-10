@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2? family= PT+Sans & display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+  font-size: 25px;
+}
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "galeria galeria galeria"
+    "footer footer footer";
+}
+header {
+  grid-area: header;
+}
+.galeria {
+  grid-area: galeria;
+}
+footer {
+  grid-area: footer;
+}
+/* cabecera */
+header {
+  width: 100%;
+  font: 30px;
+  background-color: bisque;
+}
+.img-logo {
+  width: 60px;
+  height: 60px;
+}
+.cabecera .contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: auto;
+  align-items: center;
+  padding: 15px;
+}
+
+.cabera .contenedor img {
+  width: 100px;
+  height: 100px;
+}
+.nav {
+  display: block;
+}
+.main {
+  grid-area: galeria;
+  width: 100%;
+  padding: 100px 0;
+}
+.presentacion {
+  text-align: center;
+}
+.contenedor {
+  width: 80%;
+  margin: auto;
+  max-width: 1440px;
+}
+.img1 img,
+.img2 img,
+.img3 img,
+.img4 img {
+  width: 100%;
+}
+.img1,
+.img2,
+.img3,
+.img4 {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: bisque;
+}
+
+.img1 p,
+.img2 p,
+.img3 p,
+.img4 p {
+  padding: 50px;
+}
+.img2,
+.img4 {
+  flex-flow: row-reverse;
+  background-color: white;
+}
+/* menu principal */
+.menu {
+  margin: auto;
+  max-width: px 1400;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: auto;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style-type: none;
+}
+.pieDePagina {
+  background-color: bisque;
+  padding: 20px 0;
+}
+.pieDePagina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.principal {
+  grid-area: galeria;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.principal .contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:50px
+}
+iframe{
+  margin-top:  50px;
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  .menu {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .main {
+    width: 100%;
+  }
+  .main iframe {
+    width: 100%;
+  }
+  .descripcion {
+    width: 100%;
+  }
+  .contenedor {
+    max-width: 80%;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    width: 100%;
+    flex-flow: wrap;
+  }
+
+  .img1 img,
+  .img2 img,
+  .img3 img,
+  .img4 img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu {
+    display: none;
+  }
+  .main {
+    width: 100%;
+  }
+  .main iframe {
+    width: 100%;
+  }
+  .descripcion {
+    width: 100%;
+  }
+  .contenedor {
+    max-width: 300px;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    width: 100%;
+    flex-flow: wrap;
+  }
+
+  .img1 img,
+  .img2 img,
+  .img3 img,
+  .img4 img {
+    width: 100%;
+  }
+  .contenedor iframe{
+    width: 100%;
+  }
+  .pieDePagina .contenedor ul li a{
+  font-size: 14px;
+  }
+  iframe {
+    margin-top: 50px;
+  }
+  .descripcion p{
+    margin-bottom: 50px;
+  }
+}
