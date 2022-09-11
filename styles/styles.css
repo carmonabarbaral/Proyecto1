@@ -28,7 +28,7 @@ footer {
 header {
   width: 100%;
   font: 30px;
-  background-color: bisque;
+  background:linear-gradient(#e66465, #9198e5);
 }
 .img-logo {
   width: 60px;
@@ -43,7 +43,6 @@ header {
   align-items: center;
   padding: 15px;
 }
-
 .cabera .contenedor img {
   width: 100px;
   height: 100px;
