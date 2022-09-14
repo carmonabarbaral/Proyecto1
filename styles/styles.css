@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2? family= PT+Sans & display=swap");
 * {
   margin: 0%;
@@ -43,7 +44,7 @@ header {
   align-items: center;
   padding: 15px;
 }
-.cabera .contenedor img {
+git .cabera .contenedor img {
   width: 100px;
   height: 100px;
 }
