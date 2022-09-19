@@ -8,21 +8,29 @@
     font-size: 20px;
 }
 body{
-    background-color: beige;
-    
+    background-color: #edd7c8;
 }
-
 
 .card-container{
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: space-evenly;  
 }
+
 .card{
-    background: brown;
+    background: #507882;
     border: none;
+    
+    
 }
 .card-body{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;}
+    flex-direction:column;
+    justify-content: flex-end;
+}
+.card-footer{
+    display: flex;
+    border: none;
+    text-align: left;
+    justify-content: flex-end;
+}
