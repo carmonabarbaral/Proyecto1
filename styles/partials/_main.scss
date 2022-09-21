@@ -1,0 +1,14 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+.card{
+    background: #507882;
+    border: none;    
+}
+.card-body{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+}
+}
