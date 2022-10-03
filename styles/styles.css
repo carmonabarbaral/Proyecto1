@@ -1,26 +1,22 @@
 @import url("https://fonts.googleapis.com/css2? family= PT+Sans & display=swap");
-.boton {
-  background-color: color-alternativo-1;
+.boton-secundario, .boton-primario, .boton {
   border: white;
+  width: 200px;
   padding: 10px;
   border-radius: 5px;
-  color: black;
+  cursor: pointer;
+}
+
+.boton {
+  background-color: #e2f2ef;
 }
 
 .boton-primario {
-  background-color: color-alternativo;
-  border: white;
-  padding: 10px;
-  border-radius: 5px;
-  color: black;
+  background-color: #e3bb9d;
 }
 
 .boton-secundario {
-  background-color: color-primario;
-  border: white;
-  padding: 10px;
-  border-radius: 5px;
-  color: black;
+  background-color: #edd7c8;
 }
 
 .navbar {
@@ -49,25 +45,22 @@ body {
   text-align: center;
 }
 
-.card-container {
+.card-group {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 20px;
 }
-.card-container .card {
-  background-color: #8593ae;
-  border: none;
+
+.card-img-top {
+  width: 100%;
+  height: 350px;
 }
-.card-container .card-body {
+
+.card-body {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-}
-.card-container .boton {
-  background-color: color-alternativo-1;
-  border: white;
-  padding: 10px;
-  border-radius: 5px;
+  justify-content: space-between;
 }
 
 .principal {
@@ -87,34 +80,6 @@ body {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-}
-
-.card {
-  background-color: #8593ae;
-  border: none;
-}
-
-.card-group {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.card-group .card {
-  background-color: #8593ae;
-  border: none;
-  overflow: hidden;
-}
-.card-group .card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.card-group .img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
-  padding: 15px;
 }
 
 .footer-container {
