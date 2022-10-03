@@ -1,9 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family:"PT Sans", sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: $color-principal;
+}
+
+
+.img-principal{
+    width: 100%;
+    margin:  auto;
+    text-align: center;
+}
+
 .card-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;  
+    justify-content: space-evenly; 
+
 .card{
-    background: #507882;
+    background-color: map-get($color-fondo, color-secundario,); 
     border: none;    
 }
 .card-body{
@@ -11,12 +31,51 @@
     flex-direction:column;
     justify-content: flex-end;
 }
+.btn-1{
+    @include botones (color-alternativo-1);
+}
 }
 .principal {
-display: flex;
-margin: 5px;
-border: 0,5;
-background: #507882; ;
+background-color: map-get($color-fondo, color-alternativo,); 
 text-align: center;
-justify-content: flex-end;
+}
+.container carousel{
+titulo-6{ 
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 30px;}
+}
+.container-video, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+} 
+.card{
+        background-color: map-get($color-fondo, color-secundario,); 
+        border: none;    
+    }
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+.card{
+    background-color: map-get($color-fondo, color-secundario,);
+    border: none;   
+    overflow: hidden; 
+    }
+.card-body{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;     
+}
+.img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
 }

@@ -6,11 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="../styles/styles.css">
+  <meta name="keywords" content="hoteles, descanso, playa, all inclusive,vista al mar">
+  <script src="https://kit.fontawesome.com/96db1f6348.js" crossorigin="anonymous"></script>
+  <tittle> Habitaciones Edén</tittle>
 </head>
 <body>
-  <header class="container fluid">
+  <header class="header-contenedor container-fluid">
     <div class="row">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Nosotros</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,15 +21,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Galeria</a>
-            <a class="nav-link" href="./servicios.html">Servicio</a>
-            <a class="nav-link" href="#">Habitaciones</a>
-            <a class="nav-link disabled">Contacto>
+            <a class="nav-link active" href="#">Galeria</a>
+            <a class="nav-link" href="../pages/servicios.html">Servicio</a>
+            <a class="nav-link" href="../pages/Habitaciones.html">Habitaciones</a>
+            <a class="nav-link" href="../pages/formulario.html">Contacto </a>
           </div>
         </div>
       </div>
     </nav>
     </div>
+    
+  </header>
+
+  <div class="container-carousel">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -35,8 +42,8 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <h6> Habitaciones Edén</p>
-            <img src="../images/Hab1.jpg" class="d-block w-100" alt="Hab1">
+            <h6 class="titulo-6"> Descanso soñado en nuestro edén</h6>
+            <img src="../images/hab7.jpg" class="d-block w-100" alt="Hab1">
           </div>
           <div class="carousel-item">
             <img src="../images/hab2.jpg" class="d-block w-100" alt="hab2">
@@ -54,15 +61,37 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="card-footer bg-transparent border-success">
-        <address>Resort hotel spa Edén resorteden@gmail.com</address>
-        <ul>
-          <li><a href="#">Instagram </a></li>
-          <li><a href="#">Twitter </a></li>
-          <li><a href="#">Facebook </a></li>
-        </ul>
-      </div>
+    </div>
+  <footer>
+    <div class="row justify-content-center">
+        <div class="footer-container">
+            <div class="footer-container-left">
+                <nav>
+                    <ul class="list-unstyled">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com" target="_blank">
+                              <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.twitter.com" target="_blank">
+                              <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com" target="_blank">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <address>resorteden@gmail.com</address>
+            </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+          </div>
+</div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      
 </body>
 </html>
