@@ -63,7 +63,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
 }
-.card-container .btn-1 {
+.card-container .boton {
   background-color: color-alternativo-1;
   border: white;
   padding: 10px;
