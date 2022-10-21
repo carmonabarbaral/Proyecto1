@@ -78,12 +78,16 @@ body {
   padding: 30px;
 }
 
-.container-img, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+.container-img {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
+}
+.container-img img {
+  width: 50%;
+}
+@media (max-width: 600px) {
+  .container-img img {
+    width: 100%;
+  }
 }
 
 .footer-container {
