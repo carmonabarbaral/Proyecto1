@@ -25,6 +25,10 @@
 .navbar a {
   color: black;
 }
+.navbar .navbar-toggler {
+  background-color: #edd7c8;
+  border: black;
+}
 
 * {
   margin: 0;
@@ -74,7 +78,7 @@ body {
   padding: 30px;
 }
 
-.container-video, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+.container-img, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
